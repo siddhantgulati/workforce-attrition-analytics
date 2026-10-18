@@ -133,7 +133,7 @@ SELECT attrition,
        ROUND(AVG(age), 1)                        AS avg_age,
        ROUND(AVG(years_at_company), 1)           AS avg_tenure,
        ROUND(AVG(total_working_years), 1)        AS avg_experience,
-       ROUND(AVG(distance_from_home), 1)         AS avg_distance_km,
+       ROUND(AVG(distance_from_home), 1)         AS avg_distance_from_home,
        ROUND(AVG(years_since_last_promotion), 1) AS avg_yrs_since_promotion
 FROM employees
 GROUP BY attrition;
