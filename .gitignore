@@ -1,0 +1,16 @@
+# Excel lock and temp files
+~$*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Local databases
+*.db
+*.sqlite
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini

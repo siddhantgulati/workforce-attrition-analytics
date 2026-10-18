@@ -1,0 +1,4 @@
+*.csv text eol=lf
+*.sql text eol=lf
+*.xlsx binary
+*.png binary
