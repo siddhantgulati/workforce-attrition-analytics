@@ -1,0 +1,8 @@
+factor,employees_with_factor,attrition_pct_with,attrition_pct_without,times_more_likely
+Overtime,416,30.5,10.4,2.9
+Job level 1,543,26.3,10.1,2.6
+No stock options,631,24.4,9.9,2.5
+Tenure 2 years or less,342,29.8,12.0,2.5
+Single,470,25.5,11.7,2.2
+Lowest job or environment satisfaction,520,22.7,12.5,1.8
+Travels frequently,277,24.9,14.1,1.8

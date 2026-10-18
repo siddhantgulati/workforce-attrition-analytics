@@ -1,0 +1,13 @@
+check_name,result,expected
+staging rows,1470,1470
+employees loaded,1470,1470
+duplicate employee ids,0,0
+employees without a job role,0,0
+employees without survey,0,0
+"missing income, age or attrition",0,0
+attrition values other than Yes/No,0,0
+survey scores outside 1-4,0,0
+years at company > total working years,0,0
+distinct EmployeeCount values,1,1 (dropped)
+distinct StandardHours values,1,1 (dropped)
+distinct Over18 values,1,1 (dropped)

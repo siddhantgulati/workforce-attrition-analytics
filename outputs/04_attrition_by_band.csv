@@ -1,0 +1,14 @@
+dimension,band,headcount,attrition_pct
+Age,1. 18-25,123,35.8
+Age,2. 26-35,606,19.1
+Age,3. 36-45,468,9.2
+Age,4. 46-60,273,12.5
+Monthly income,1. under 2.5k,224,34.4
+Monthly income,2. 2.5k-5k,525,16.4
+Monthly income,3. 5k-10k,440,11.1
+Monthly income,4. 10k+,281,8.9
+Tenure,1. 0-1 yrs,215,34.9
+Tenure,2. 2-3 yrs,255,18.4
+Tenure,3. 4-5 yrs,306,13.1
+Tenure,4. 6-10 yrs,448,12.3
+Tenure,5. 10+ yrs,246,8.1

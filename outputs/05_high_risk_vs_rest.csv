@@ -1,0 +1,3 @@
+risk_group,headcount,leavers,attrition_pct,pct_of_all_leavers
+High (4+),287,134,46.7,56.5
+Low / medium (0-3),1183,103,8.7,43.5

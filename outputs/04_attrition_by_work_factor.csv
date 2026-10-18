@@ -1,0 +1,18 @@
+factor,value,headcount,attrition_pct
+Business travel,Non-Travel,150,8.0
+Business travel,Travel_Frequently,277,24.9
+Business travel,Travel_Rarely,1043,15.0
+Job level,1,543,26.3
+Job level,2,534,9.7
+Job level,3,218,14.7
+Job level,4,106,4.7
+Job level,5,69,7.2
+Marital status,Divorced,327,10.1
+Marital status,Married,673,12.5
+Marital status,Single,470,25.5
+Overtime,No,1054,10.4
+Overtime,Yes,416,30.5
+Stock option level,0,631,24.4
+Stock option level,1,596,9.4
+Stock option level,2,158,7.6
+Stock option level,3,85,17.6

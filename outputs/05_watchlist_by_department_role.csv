@@ -1,0 +1,11 @@
+department_name,job_role_name,active_employees,high_risk,pct_high_risk
+Research & Development,Research Scientist,245,55,22.4
+Research & Development,Laboratory Technician,197,37,18.8
+Sales,Sales Executive,269,13,4.8
+Sales,Sales Representative,50,12,24.0
+Research & Development,Healthcare Representative,122,10,8.2
+Research & Development,Manufacturing Director,135,9,6.7
+Research & Development,Research Director,78,8,10.3
+Human Resources,Human Resources,40,4,10.0
+Sales,Manager,35,3,8.6
+Research & Development,Manager,51,2,3.9
