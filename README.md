@@ -33,6 +33,20 @@ Attrition rises steadily with the score: from 4% at a score of 0, to 39% at 4, t
 
 I kept the score deliberately simple. A logistic regression or tree model would rank people a little better, but an HR business partner can't easily explain a model coefficient to a line manager. "This person works overtime, is in their first year and has no stock options" is something they can act on.
 
+## Power BI version
+
+`powerbi/HR_Attrition.pbip` is an interactive version for HR business partners, saved as a Power BI project so every visual and measure is reviewable as text.
+
+- **Overview:** headline KPIs, attrition by job role, by tenure, and overtime by department, with slicers for department, gender and job level.
+- **Drivers:** overtime, marital status, travel, stock options, income and age, each shown against the company rate in percentage points, plus survey scores.
+- **Risk & watch list:** the score backtest, high vs low risk, and a filterable list of the 153 current employees with 4 or more risk factors.
+
+Power Query drops the constant and unreliable columns and builds the bands and the risk score. Attrition rates and comparisons are DAX measures. Every number matches the SQL outputs and the Excel workbook.
+
+![Power BI overview](docs/powerbi_overview.png)
+
+To open it, double-click `HR_Attrition.pbip` in Power BI Desktop. Then go to **Home > Transform data > Edit parameters**, set **DataFolder** to the full path of this repo's `data` folder (ending in `\`), and click **Refresh**.
+
 ## How it's built
 
 **SQL** (`sql/`, written for MySQL 8 and also run on SQLite)
@@ -103,9 +117,10 @@ workforce-attrition-analytics/
 ├── sql/                         MySQL scripts 00-05
 ├── scripts/run_sql.py           runs the SQL on SQLite and saves the results
 ├── outputs/                     query results as CSV
+├── powerbi/                     Power BI project (.pbip) and theme
 └── docs/                        screenshots used in this README
 ```
 
 ## Tools
 
-SQL (MySQL 8 / SQLite: joins, CTEs, window functions, views), MS Excel (tables, COUNTIFS/SUMIFS, INDEX/MATCH, pivot tables, conditional formatting, charts), Python (csv, sqlite3).
+SQL (MySQL 8 / SQLite: joins, CTEs, window functions, views), Power BI (Power Query, DAX), MS Excel (tables, COUNTIFS/SUMIFS, INDEX/MATCH, pivot tables, conditional formatting, charts), Python (csv, sqlite3).
