@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "72b9896aadd7e1f31826",
+  "position": {
+    "x": 964,
+    "y": 690,
+    "z": 14,
+    "height": 380,
+    "width": 956,
+    "tabOrder": 14
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Overtime is the strongest single driver: 30.5% of people working overtime left, against 10.4% of those who didn't, and the gap holds in every department. Sales Representatives (39.8%) and people in their first year (34.9%) are the other hot spots. Use the slicers to compare departments, gender and job levels.",
+                    "textStyle": {
+                      "fontSize": "11pt"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

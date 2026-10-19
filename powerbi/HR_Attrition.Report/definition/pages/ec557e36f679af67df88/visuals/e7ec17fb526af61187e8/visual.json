@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "e7ec17fb526af61187e8",
+  "position": {
+    "x": 964,
+    "y": 290,
+    "z": 3,
+    "height": 250,
+    "width": 956,
+    "tabOrder": 3
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Factors: overtime, job level 1, 2 years or less at the company, single, no stock options, frequent travel, and the lowest job or environment satisfaction score. Use the watch list for retention conversations only, not for performance or pay decisions.",
+                    "textStyle": {
+                      "fontSize": "11pt"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

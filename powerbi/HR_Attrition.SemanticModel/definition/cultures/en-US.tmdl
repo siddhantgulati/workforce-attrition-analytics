@@ -1,0 +1,410 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "employees.attrition__no_overtime": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Employees",
+			          "ConceptualProperty": "Attrition % No Overtime"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Attrition without overtime": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "employees.attrition_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Employees",
+			          "ConceptualProperty": "Attrition %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Attrition rate": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "employees.overtime": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Employees",
+			          "ConceptualProperty": "OverTime"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Overtime": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "employees.high_risk_active": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Employees",
+			          "ConceptualProperty": "High Risk Active"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Current staff at high risk": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "employees.attrition__overtime": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Employees",
+			          "ConceptualProperty": "Attrition % Overtime"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Attrition with overtime": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "employees.headcount_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Employees",
+			          "ConceptualProperty": "Headcount Label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Headcount": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "employees.maritalstatus": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Employees",
+			          "ConceptualProperty": "MaritalStatus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Marital status": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "employees.vs_company_pts": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Employees",
+			          "ConceptualProperty": "vs Company (pts)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vs company (pts)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "employees.stockoptionlevel": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Employees",
+			          "ConceptualProperty": "StockOptionLevel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Stock option level": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "employees.businesstravel": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Employees",
+			          "ConceptualProperty": "BusinessTravel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Business travel": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "employees.ageband": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Employees",
+			          "ConceptualProperty": "AgeBand"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Age": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "employees.incomeband": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Employees",
+			          "ConceptualProperty": "IncomeBand"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Monthly income": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "employees.employeenumber": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Employees",
+			          "ConceptualProperty": "EmployeeNumber"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Employee": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "employees.jobrole": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Employees",
+			          "ConceptualProperty": "JobRole"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Job role": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "employees.joblevel": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Employees",
+			          "ConceptualProperty": "JobLevel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Job level": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "employees.yearsatcompany": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Employees",
+			          "ConceptualProperty": "YearsAtCompany"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Years at company": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "employees.riskscore": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Employees",
+			          "ConceptualProperty": "RiskScore"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Risk score": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "employees.riskgroup": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Employees",
+			          "ConceptualProperty": "RiskGroup"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Risk group": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "employees.share_of_leavers": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Employees",
+			          "ConceptualProperty": "Share of Leavers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Share of leavers": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

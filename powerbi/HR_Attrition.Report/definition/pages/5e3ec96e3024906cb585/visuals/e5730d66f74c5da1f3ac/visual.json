@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "e5730d66f74c5da1f3ac",
+  "position": {
+    "x": 0,
+    "y": 96,
+    "z": 2,
+    "height": 96,
+    "width": 192,
+    "tabOrder": 2
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Employees"
+                    }
+                  },
+                  "Property": "Headcount Label"
+                }
+              },
+              "queryRef": "Employees.Headcount Label",
+              "nativeQueryRef": "Headcount Label",
+              "displayName": "Headcount"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

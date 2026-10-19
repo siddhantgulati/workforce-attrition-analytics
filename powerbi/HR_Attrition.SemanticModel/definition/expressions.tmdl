@@ -1,0 +1,5 @@
+expression DataFolder = "C:\Projects\workforce-attrition-analytics\data\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: cfd9c2ea-2a7c-4bb2-a91f-622d9b64fc0e
+
+	annotation PBI_ResultType = Text
+

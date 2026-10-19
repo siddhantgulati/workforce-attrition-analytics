@@ -1,0 +1,61 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "e55b81d38ef5351f1565",
+  "position": {
+    "x": 576,
+    "y": 96,
+    "z": 5,
+    "height": 96,
+    "width": 192,
+    "tabOrder": 5
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Employees"
+                    }
+                  },
+                  "Property": "Attrition % Overtime"
+                }
+              },
+              "queryRef": "Employees.Attrition % Overtime",
+              "nativeQueryRef": "Attrition % Overtime",
+              "displayName": "Attrition with overtime"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "value": [
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#C02F2F'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Employees.Attrition % Overtime"
+          }
+        }
+      ]
+    }
+  }
+}

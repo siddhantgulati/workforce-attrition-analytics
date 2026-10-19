@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "HR_Attrition"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "6f614ff0-b4f1-413b-b872-90ced53ec5cf"
+  }
+}
